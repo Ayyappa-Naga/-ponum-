@@ -17,7 +17,6 @@ public class MavenPractic {
 	    this.setInvocationCount(context, requestsToEnv);
 	}
 	public class MavenPractice { final 
-		int a=10;
 		@Test(groups="smoke")
 		public void method()
 		{

@@ -7,7 +7,9 @@ import org.testng.annotations.Test;
 
 public class MavenPractic {
 	private ITestContext context;
-
+@Test
+	public void method22(){
+	}
 	@Parameters("requestsToEnv")
 	@Test
 	public void setInvocationCount(ITestContext context, String requestsToEnv) {

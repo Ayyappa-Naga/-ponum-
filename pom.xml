@@ -87,7 +87,9 @@
 
   </dependencies>
   
-
+<profiles>
+	<profile>
+		<id>smoke</id>
 	  <build>
 	  <pluginManagement>
 	   <plugins>
@@ -104,7 +106,9 @@
 </plugins>
 			  </pluginManagement>
 		  </build>
-	  
+		
+	</profile>
+</profiles>
   <properties>
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>

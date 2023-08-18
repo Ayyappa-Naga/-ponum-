@@ -86,10 +86,10 @@
 
 
   </dependencies>
-  
-<profiles>
+  <profiles>
+
 	<profile>
-		<id>smoke</id>
+	  <id>smoke</id>
 	  <build>
 	  <pluginManagement>
 	   <plugins>
@@ -99,17 +99,18 @@
         <version>3.1.2</version>
         <configuration>
           <suiteXmlFiles>
-            <suiteXmlFile>mavenpr.xml</suiteXmlFile>
+            <suiteXmlFile>allTestsBatch.xml</suiteXmlFile>
           </suiteXmlFiles>
         </configuration>
       </plugin>
 </plugins>
 			  </pluginManagement>
 		  </build>
-		
-	</profile>
-</profiles>
-  <properties>
+	  </profile>
+  </profiles>
+	
+	
+	<properties>
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
   </properties>

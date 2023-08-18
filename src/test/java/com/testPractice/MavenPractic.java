@@ -5,17 +5,7 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
-public class MavenPractic {
-	private ITestContext context;
-@Test
-	public void method22(){
-	}
-	@Parameters("requestsToEnv")
-	@Test
-	public void setInvocationCount(ITestContext context, String requestsToEnv) {
-	    this.context = context;
-	    this.setInvocationCount(context, requestsToEnv);
-	}
+
 	public class MavenPractice { final 
 		int a=10;
 		@Test(groups="smoke")

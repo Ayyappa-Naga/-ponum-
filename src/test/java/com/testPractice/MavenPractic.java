@@ -6,7 +6,7 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 
-	public class MavenPractice { final 
+	public class MavenPractic { final 
 		int a=10;
 		@Test(groups="smoke")
 		public void method()

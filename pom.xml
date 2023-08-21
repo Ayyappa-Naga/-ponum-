@@ -86,10 +86,7 @@
 
 
   </dependencies>
-  <profiles>
-
-	<profile>
-	  <id>smoke</id>
+  
 	  <build>
 	  <pluginManagement>
 	   <plugins>
@@ -106,8 +103,6 @@
 </plugins>
 			  </pluginManagement>
 		  </build>
-	  </profile>
-  </profiles>
 	
 	
 	<properties>

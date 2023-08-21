@@ -15,7 +15,7 @@ import org.testng.annotations.Test;
 	@Test(groups = "system")
 		public void method1()
 		{
-			System.out.println("method system  executed");
+			System.out.println("method system  executed")
 		}
 	}
 	

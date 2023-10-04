@@ -16,5 +16,6 @@ public class MavenPractice {
 @Test
 public void vinod() {
 	System.out.println("Code from vinodRamilla");
+	System.out.println("Code from vinodRamilla2");
 }
 }

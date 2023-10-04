@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 		@Test(groups="smoke")
 		public void method()
 		{
-			System.out.println("c2 executed ");
+			System.out.print("hello");
 		}
 	@Test(groups = "system")
 		public void method1()

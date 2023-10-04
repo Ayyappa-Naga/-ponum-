@@ -12,6 +12,9 @@ import org.testng.annotations.Test;
 		{
 			System.out.print("hello");
 			System.out.print("hello");
+			System.out.print("hello");
+			System.out.print("hello");
+			System.out.print("hello");
 		}
 	@Test(groups = "system")
 		public void method1()

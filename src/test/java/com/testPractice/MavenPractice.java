@@ -13,4 +13,8 @@ public class MavenPractice {
 	{
 		System.out.println("method 1 executed");
 	}
+@Test
+public void vinod() {
+	System.out.println("Code from vinodRamilla");
+}
 }
